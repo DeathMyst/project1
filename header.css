@@ -6,8 +6,8 @@ body {
     text-decoration: none;
     font-size: 1.25em;
     display: flex;
+    grid-template-rows: 1fr;
 }
-
 
 .header-wrapper {
     background-color: black;
@@ -18,15 +18,16 @@ body {
     justify-content:  space-between;
     align-items: center;
     flex-direction: row;    
-    grid-template-rows: 3fr;
+
 
 }
 
-.main-body > {
+.main-section > {
     display: flex;
     
 }
 
-main-body > {
+main-section > .main-body {
     display: grid;
+
 }
