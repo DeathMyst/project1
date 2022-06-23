@@ -1,3 +1,4 @@
+/* Header Section */
 body {
     background-color: #121212ce;
     margin: 0px;
@@ -7,34 +8,86 @@ body {
 
 .header-wrapper {
     background-color: black;
-    height: 76px;
-    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    margin-left: -200px;
 }
 
-.header-wrapper > .header-logo {
+.header-wrapper > .left-column {
     background-color: rgb(0, 0, 0);
-    
+
 }
 
-.header-wrapper > .header-links > .navlink {
-    font-size: 1.0em;
+.header-wrapper > .center-column {
+    display: flex;
+    flex-direction: column;
 }
 
-.header-wrapper > .header-links > .navlink > .header1 {
+.header-wrapper > .center-column > .navlink2 {
+    display: flex;
+}
+
+.navlink2 h4 {
+    padding-right: 10px;
+}
+
+.header-wrapper > .center-column h3 {
     align-items: center;
     color: rgb(230, 199, 29);
 }
 
-.header-wrapper > .header-logo > .btn1 {
-    background-color: rgba(0, 0, 0, 0.603);
-    width: 45px;
-    height: 25px;
-    
+.header-wrapper > .right-column {
+    display: flex;
+    justify-content: flex-start;
+
 }
+
+.header-wrapper > .right-column > .btn1 {
+    background-color: grey;
+    padding: 17px;
+}
+
+.header-wrapper > .right-column > .btn1 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header-wrapper > .right-column > .btn2 {
+    background-color: grey;
+    padding: 17px;
+}
+
+.header-wrapper > .right-column > .btn2 a {
+    text-decoration: none;
+    color: white;
+
+}
+.header-wrapper > .right-column > .btn3 {
+    background-color: grey;
+    padding: 17px;
+}
+
+.header-wrapper > .right-column > .btn3 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.header-wrapper > .right-column > .search-button {
+    background-color: black;
+    font-size: 2em;
+    color: grey;
+}
+
+
+
+
+
+
+/*  Main Body Section */
 
 .main-section {
     display: grid;
@@ -57,6 +110,23 @@ body {
 .main-section > .demo-image > h3 {
     align-self: center;
 }
+
+.main-section > .main-body_text > .btn1 {
+    padding: 17px;
+    background-color: green;
+    color: black;
+
+}
+
+.main-section > .main-body_text > .btn2 {
+    padding: 17px;
+    background-color: black;
+
+
+
+}
+
+/*  Footer Section */
 
 .footer-wrapper {
     display: grid;
