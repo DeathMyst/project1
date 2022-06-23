@@ -3,44 +3,98 @@ body {
     margin: 0px;
     padding: 0px;
     color: white;
-    display: flex;
-    align-items: center;
 }
 
 .header-wrapper {
     background-color: black;
-    height: 86px;
+    height: 76px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
 .header-wrapper > .header-logo {
     background-color: rgb(0, 0, 0);
-    align-items: center;
-    display: flex;
+    
 }
 
 .header-wrapper > .header-links > .navlink {
-    display: grid;
     font-size: 1.0em;
 }
 
 .header-wrapper > .header-links > .navlink > .header1 {
-    display: flex;
     align-items: center;
     color: rgb(230, 199, 29);
 }
 
-.header-wrapper > .header-logo > .button1 {
-    display: grid;
-    background-color: rgba(0, 0, 0, 0.623);
-    padding: 25px;
+.header-wrapper > .header-logo > .btn1 {
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 45px;
+    height: 25px;
     
 }
 
-main-section > .main-body {
+.main-section {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+}
+
+.main-section > .main-body_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section > .demo-image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+     
+}
+
+.main-section > .demo-image > h3 {
+    align-self: center;
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.212);
+    color: white;
+    align-items: center;
+    margin-top: 20px
+}
+
+.footer-wrapper a {
+    color: white;
+    text-decoration: none;
+    /* border: 2px solid grey; */
+    /* padding: 17px 81px 17px 80px;  */
+}
+
+.footer-wrapper > .footer-nav1 {
+    border: 3px solid grey;
+    padding: 15px;
+
+}
+
+.footer-wrapper > .footer-nav2 {
+    border: 3px solid grey;
+    padding: 15px;
+
+}
+
+.footer-wrapper > .footer-nav3 {
+    border: 3px solid grey;
+    padding: 15px;
+
+}
+
+.footer-wrapper > .footer-nav4 {
+    border: 3px solid grey;
+    padding: 15px;
+
 }
