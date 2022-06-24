@@ -4,6 +4,8 @@ body {
     margin: 0px;
     padding: 0px;
     color: white;
+    height: 29px;
+
 }
 
 .header-wrapper {
@@ -45,6 +47,8 @@ body {
 .header-wrapper > .right-column > .btn1 {
     background-color: grey;
     padding: 17px;
+    margin-top: 11px;
+    margin-bottom: 11px;
 }
 
 .header-wrapper > .right-column > .btn1 a {
